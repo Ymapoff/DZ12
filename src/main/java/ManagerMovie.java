@@ -3,6 +3,10 @@ public class ManagerMovie {
     private String[] movies = new String[0];
     private int limit;
 
+    public int getLimit() {
+        return limit;
+    }
+
     public ManagerMovie() {
         this.limit = 5;
     }
